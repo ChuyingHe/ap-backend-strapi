@@ -58,6 +58,11 @@
     },
     "ingredients": {
       "type": "json"
+    },
+    "productComponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product-component.product-component"
     }
   }
 }
