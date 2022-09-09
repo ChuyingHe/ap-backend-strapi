@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_product_component_product_components",
+  "info": {
+    "displayName": "productComponent",
+    "icon": "capsules",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleProduct": {
+      "type": "string"
+    },
+    "subtitleProduct": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "imgProduct": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "weightProduct": {
+      "type": "float"
+    },
+    "priceProduct": {
+      "type": "float"
+    },
+    "productType": {
+      "type": "string"
+    },
+    "productSmell": {
+      "type": "string"
+    },
+    "productColor": {
+      "type": "string"
+    }
+  }
+}

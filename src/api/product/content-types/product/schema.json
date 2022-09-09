@@ -19,14 +19,6 @@
     "product_id": {
       "type": "uid"
     },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "soap",
-        "essential_oil"
-      ],
-      "default": "soap"
-    },
     "price": {
       "type": "float"
     },
@@ -58,6 +50,12 @@
     },
     "ingredients": {
       "type": "json"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "products"
     }
   }
 }
